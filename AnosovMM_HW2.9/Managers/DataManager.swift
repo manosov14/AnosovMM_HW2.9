@@ -9,8 +9,8 @@ import Spring
 
 class DataManager {
     static let shared = DataManager()
-    var animation  = Spring.AnimationPreset.allCases
-    var curve = Spring.AnimationCurve.allCases
+    let animation  = Spring.AnimationPreset.allCases
+    let curve = Spring.AnimationCurve.allCases
     
     private init() {}
 }

@@ -8,7 +8,7 @@
 import Spring
 
 struct Animation {
-    var animation: String
+    let animation: String
     var nextAnimation: String {
         getNextAnimation()
     }
